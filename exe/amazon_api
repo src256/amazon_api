@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "amazon_api"
+require 'pp'
+require 'dotenv'
+
+AmazonApi::Core.run(ARGV)
